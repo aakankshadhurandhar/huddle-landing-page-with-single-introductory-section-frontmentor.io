@@ -74,4 +74,52 @@ transition: all 0.3s ease 0s;
     background-color: var(--violet);
     color: white;
 }
+/**social icons **/
+.custom-icon {
+    font-size: 20px;
+    /* background: #fff; */
+    color: #ffffff;
+  
+    padding: 8px;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #ffffff;
+    columns: #000000;
+    text-align: center;
+  
+    display: table-cell;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+  
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  
+  }
+ 
+    .icon-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 10px;
+        padding-right: 100px;
+        padding-bottom: 10px;
+        padding-top: 3rem;
+      
+      }
+    .custom-icon :hover{
+        color: var(--violet);
 
+    }
+    @media (max-width: 1024px) {
+        img {
+      
+          width: 350px;
+          height: auto;
+        }
+      }
+  
