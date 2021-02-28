@@ -25,10 +25,53 @@ background-repeat: no-repeat;
     padding: 2rem;
 }
 /** container make it such that two div side by side**/
-.container{
+section{
     display: flex;
     width: 80%;
     margin: auto;
+    padding-top: 4rem;
+    color: white;
+    gap:7rem;
+
+
+}
+/**div2 css-  css **/
+
+ h1{
+    font-family: var(--poppins);
+    font-size: 3rem;
+    padding-top: 5rem;
+    font-weight: 600;
+}
+h4,p,a{
+    font-family: var(--opensans);
+}
+.img{
+    height: auto;
+}
+h4{
+    font-weight: 400;
     padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+
+}
+/**button css **/
+.btn{
+background-color: white;
+color: var(--violet);
+text-align: center;
+outline: none;
+cursor: pointer;
+border-radius: 2rem;
+border: none;
+padding: 1rem 4rem 1rem 4rem;
+transition: all 0.3s ease 0s;
+
+}
+/**button hover **/
+.btn :hover{
+    background-color: var(--violet);
     color: white;
 }
+
